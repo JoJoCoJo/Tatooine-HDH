@@ -8,7 +8,7 @@
 
 - local: La traducción al español es "local".
 
-- remote: La traducción al español es "remoto". Con este comando podemos ejecutar instrucciones que afecten directamente al origen
+- remote: La traducción al español es "remoto". Con este comando podemos ejecutar instrucciones que afecten directamente al origen.
 
 - init: No encontre una traducción al español como tal, pero da a entender que es una abreviación de "initial", que traducido al español es "inicial", se usa generalmente cuando se va a crear un proyecto nuevo con GIT.
 
@@ -26,8 +26,8 @@
 
 
 + Nombra las fases de GIT y que pasa en cada una de ellas...
-  + UNTRACKED:
-  + TRACKED:
+  + UNTRACKED: Es el estado que se le da a los archivos de los cuales aun no se lleva el registro en el proyecto.
+  + TRACKED: Es el estado que se le da a los archivos de los cuales se va
   + MODIFIED:
   + STAGED:
   + COMMITTED:
