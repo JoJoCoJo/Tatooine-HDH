@@ -6,7 +6,7 @@
 
 ¿Qué significan y para que sirven las siguientes palabras clave?
 
-- local: La traducción al español es "local".
+- local: La traducción al español es "local". Hace referencia a que trabajamos con un repositorio local de GIT, el cual podemos manipular y/o crear archivos paara posteriormente poder subir los cambios al origin.
 
 - remote: La traducción al español es "remoto". Con este comando podemos ejecutar instrucciones que afecten directamente al origen.
 
@@ -27,10 +27,10 @@
 
 + Nombra las fases de GIT y que pasa en cada una de ellas...
   + UNTRACKED: Es el estado que se le da a los archivos de los cuales aun no se lleva el registro en el proyecto.
-  + TRACKED: Es el estado que se le da a los archivos de los cuales se va
-  + MODIFIED:
-  + STAGED:
-  + COMMITTED:
+  + TRACKED: Es el estado que se le da a los archivos de los cuales se monitorea la actividad.
+  + MODIFIED: Es el estado que se le da a los archivos a los cuales se han modificado y guardados cambios sin haber hecho el COMMIT, pero después de haber hecho el ADD y se registran los cambios hasta que se ejucuta la instrucción COMMIT.
+  + STAGED: Es el estado que se le da a los archivos de los cuales ya se acabron de modificar, pero que aun no se procede a hacer el COMMIT como tal, ya que se sigue trabajando sobre otros archivos.
+  + COMMITTED: Es el estado que se le da a los archivos los cuales ya están listos para poder ejecutar la instrucción PUSH, la cual respalda los archivos en el servidor, tal como GitHub.
 
 + ¿Que son las cosas que NO se deben hacer en un repositorio de GIT?
   + Tener muchas ramas, sobre todo las que ya no se usen.
