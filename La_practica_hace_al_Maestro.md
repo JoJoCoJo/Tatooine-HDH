@@ -61,7 +61,9 @@
     <p align="center">
       <img src="images/TutoGit-9.png" />
     </p>
+
     1. Primero al dar click en el botón "Clone or download" nos desplegará un menú.
+
     2. Y en seguida podremos copiar directamente el link del repositorio.
 
   *  Una vez copiado / obtenido el link del repositorio, podemos clonar / descargar el proyecto en nuestras PC / laptops con la siguiente instrucción:
@@ -70,7 +72,16 @@
   git clone git@github.com:JoJoCoJo/shiny-rotary-phone.git
   ```
   * En la terminal obtendríamos el siguiente resultado:
-  
+
     <p align="center">
       <img src="images/TutoGit-10.png" />
     </p>
+
+    Y ya con eso tendríamos el proyecto en nuestra PC / laptop listo para trabajar. Si ejecutamos los siguientes comando en la terminal:
+
+    ```
+    shiny-rotary-phone/
+    ls
+    ```
+
+    Podremos ver los archivos / carpetas que acabmos de descargar / clonar
