@@ -50,14 +50,27 @@
         <img src="images/TutoGit-7.png" />
       </p>
 
-  * Por último se debe presionar el botón "Create repository"
+  * Por último (para terminar de crear el repositorio) se debe presionar el botón "Create repository", y tendremos el repositorio creado.
 
     <p align="center">
       <img src="images/TutoGit-8.png" />
     </p>
 
- 2. Crea un documento que explique los siguiente.
+  * Al terminar la acción nos mostrará la página principal de repositorio, donde:
 
-    - ¿Que es Markdown?
-    - ¿Donde se utiliza?
-    - ¿Cuales son las palabras claves mas utilizadas en Markdown?
+    <p align="center">
+      <img src="images/TutoGit-9.png" />
+    </p>
+    1. Primero al dar click en el botón "Clone or download" nos desplegará un menú.
+    2. Y en seguida podremos copiar directamente el link del repositorio.
+
+  *  Una vez copiado / obtenido el link del repositorio, podemos clonar / descargar el proyecto en nuestras PC / laptops con la siguiente instrucción:
+
+  ```
+  git clone git@github.com:JoJoCoJo/shiny-rotary-phone.git
+  ```
+  * En la terminal obtendríamos el siguiente resultado:
+  
+    <p align="center">
+      <img src="images/TutoGit-10.png" />
+    </p>
