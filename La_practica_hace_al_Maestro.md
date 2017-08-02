@@ -1,3 +1,1 @@
-# Tatooine-HDH
-
 ## La práctica hace al Maestro...
