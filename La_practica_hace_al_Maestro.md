@@ -6,6 +6,6 @@
 
   * Para empezar un proyecto en GIT con almacenamiento en GitHub, debemos en entrar a [GitHub](https://github.com/), una vez iniciado sesión, en la parte superior derecha, nos aparecerá a lado de nuestra foto de perfil un icono de :heavy_plus_sign:, al cuál al darle click desplegará un menú, donde debemos seleccionar la primera opción "New repository".
 
-    ![Tuto 1](TutoGit-1.png)
+    ![Tuto 1](images/TutoGit-1.png)
 
-  * 
+  *
