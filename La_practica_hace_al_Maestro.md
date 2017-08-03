@@ -134,26 +134,26 @@
     <img src="images/TutoGit-16.png" />
   </p>
 
-    Como notaremos, nos dice que archios se han tenido una modificación Y nos recomienda ejecutar instrucciones como "git add" que es la que acontinuación usaremos.
+  Como notaremos, nos dice que archios se han tenido una modificación Y nos recomienda ejecutar instrucciones como "git add" que es la que acontinuación usaremos.
 
   ```
   git add LICENSE
   git status
   ```
 
-    Podemos observar en la terminal que no pasa nada al ejecutar la primera instrucción, pero cuándo ejecutamos la segunda ya nos marca en otro color el estatus actual.
+  Podemos observar en la terminal que no pasa nada al ejecutar la primera instrucción, pero cuándo ejecutamos la segunda ya nos marca en otro color el estatus actual.
 
   <p align="center">
     <img src="images/TutoGit-17.png" />
   </p>
 
-    Ahora podemos proceder a hacer el "commit" de los archivos con la siguiente instrucción:
+  Ahora podemos proceder a hacer el "commit" de los archivos con la siguiente instrucción:
 
   ```
   git commit -m "Commit Message"
   ```
 
-    Después nos mostrará este resultado en la terminal.
+  Después nos mostrará este resultado en la terminal.
 
   <p align="center">
     <img src="images/TutoGit-18.png" />
