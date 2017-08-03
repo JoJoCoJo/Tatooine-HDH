@@ -124,9 +124,11 @@
 
     Para empezar escribimos y ejecutamos la instrucción en la terminal:
 
+
     ```
     git status
     ```
+
     La cuál nos mostrará el siguiente resultado:
 
     <p align="center">
@@ -139,6 +141,7 @@
     git add LICENSE
     git status
     ```
+
     Podemos observar en la terminal que no pasa nada al ejecutar la primera instrucción, pero cuándo ejecutamos la segunda ya nos marca en otro color el estatus actual.
 
     <p align="center">
