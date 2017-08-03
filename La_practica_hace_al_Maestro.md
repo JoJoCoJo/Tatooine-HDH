@@ -122,7 +122,7 @@
 
   Cuando terminamos de trabajar en nuestros archivos podemos pasar a la terminal para subir nuestros archivos al repositorio de GitHub.
 
-    1. Para empezar escribimos y ejecutamos la instrucción en la terminal:
+    Para empezar escribimos y ejecutamos la instrucción en la terminal:
 
     ```
     git status
