@@ -84,4 +84,75 @@
     ls
     ```
 
-    Podremos ver los archivos / carpetas que acabmos de descargar / clonar
+  * Podremos ver los archivos / carpetas que acabmos de descargar / clonar del repositorio que acabamos de crear en GitHub.
+
+    <p align="center">
+      <img src="images/TutoGit-11.png" />
+    </p>
+
+  * Modificando el archivo de LICENSE agregando más autores, podremos proseguir con el tutorial.
+
+    Para abrir el archivo sólo tendremos que escribir desde la terminal la siguiente intrucción:
+
+      ```
+      atom .
+      ```
+
+    Con la cuál nos abre en este caso Atom con el proyecto listo para empezar a trabajar.
+
+    <p align="center">
+      <img src="images/TutoGit-12.png" />
+    </p>
+
+    <p align="center">
+      <img src="images/TutoGit-13.png" />
+    </p>
+
+    Seleccionamos nuestro archivo LICENSE y agregamos autores y como podremos observar, el mismo editor nos indica cuando no hemos guardado cambios y estamos haciendo modificaciones al archivo.
+
+    <p align="center">
+      <img src="images/TutoGit-14.png" />
+    </p>
+
+    Es hasta que guardamos cambios, se pone normal el icono para cerrar el archivo. Y también se notará el cambio del color del nombre del archivo.
+
+    <p align="center">
+      <img src="images/TutoGit-15.png" />
+    </p>
+
+  Cuando terminamos de trabajar en nuestros archivos podemos pasar a la terminal para subir nuestros archivos al repositorio de GitHub.
+
+    1. Para empezar escribimos y ejecutamos la instrucción en la terminal:
+
+    ```
+    git status
+    ```
+    La cuál nos mostrará el siguiente resultado:
+
+    <p align="center">
+      <img src="images/TutoGit-16.png" />
+    </p>
+
+    Como notaremos, nos dice que archios se han tenido una modificación Y nos recomienda ejecutar instrucciones como "git add" que es la que acontinuación usaremos.
+
+    ```
+    git add LICENSE
+    git status
+    ```
+    Podemos observar en la terminal que no pasa nada al ejecutar la primera instrucción, pero cuándo ejecutamos la segunda ya nos marca en otro color el estatus actual.
+
+    <p align="center">
+      <img src="images/TutoGit-17.png" />
+    </p>
+
+    Ahora podemos proceder a hacer el "commit" de los archivos con la siguiente instrucción:
+
+    ```
+    git commit -m "Commit Message"
+    ```
+
+    Después nos mostrará este resultado en la terminal.
+
+    <p align="center">
+      <img src="images/TutoGit-18.png" />
+    </p>
