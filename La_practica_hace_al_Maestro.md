@@ -158,3 +158,29 @@
   <p align="center">
     <img src="images/TutoGit-18.png" />
   </p>
+
+  Volvemos a escribir la instrucción "git status" en la terminal
+
+  <p align="center">
+    <img src="images/TutoGit-19.png" />
+  </p>
+
+  Y nos indicará qué nuestro proyecto local o rama master esta delante de "origin/master". Ahora estamos listos para subir los cambios con la siguiente instrucción:
+
+  ```
+  git push origin master
+  ```
+
+  La cuál mostrará el siguiente resultado:
+
+  <p align="center">
+    <img src="images/TutoGit-20.png" />
+  </p>
+
+  Y volviendo a ejecutar la instrucción "git status" nos dirá lo siguente:
+
+  <p align="center">
+    <img src="images/TutoGit-21.png" />
+  </p>
+
+  Lo cual nos indica que la rama ya esta actualizada con "origin/master" que es donde esta alojado nuestro repositorio en GitHub.
