@@ -34,7 +34,7 @@ Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este 
 
       * Privado: Brinda la capacidad de definir quienes pueden ver, aportar, descargar / clonar el repositorio para poder ayudar en el trabajo del proyecto añadiendo colaboradores que cuenten con una cuenta de GitHub. P.D. Esta opción es de paga.
 
-  * Posteriormente se puede marcar la opción de crear un repositorio con un archivo README.md
+  * Posteriormente se puede marcar  :ballot_box_with_check: la opción de crear un repositorio con un archivo README.md
 
     <p align="center">
       <img src="images/TutoGit-5.png" />
@@ -194,6 +194,18 @@ Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este 
 
 ### Creando nuevas ramas
 
-  Generalmente cuando trabajamos en un grupo se hace una rama llamada "develop" de ahí podemos hacer otra rama para poder trabajar sobre ella y no afectar los cambios directos sobre la rama master.
+  Generalmente cuando trabajamos en un grupo se hace una rama llamada "**develop**" de ahí podemos hacer otra rama para poder trabajar sobre ella y no afectar los cambios directos sobre la rama master.
 
-  Para hacer
+  Para hacer una rama de master y establecerle el nombre de "**develop**", debemos de poner la siguiente instrucción:
+
+  ```
+  git branch develop
+  ```
+  O la siguiente instrucción, no sólo nos va a crear la nueva rama, también nos va a posicionar / cambiar de la rama actual a la que le digamos.
+
+  ```
+  git checkout -b develop
+  ```
+  <p align="center">
+    <img src="images/TutoGit-22.png" />
+  </p>
