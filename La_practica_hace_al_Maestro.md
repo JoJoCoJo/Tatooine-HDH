@@ -2,7 +2,9 @@
 
 ![OcktoJedi](https://s-media-cache-ak0.pinimg.com/originals/dc/ef/3a/dcef3abedf0e0761203aaeb85886a6f3.jpg)
 
-1. Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este listado deberá ser mas un tutorial que un listado. Acompáñalo con imágenes, y recuerda que MarkDown tiene una manera para que se pueda escribir código en el.
+Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este listado deberá ser mas un tutorial que un listado. Acompáñalo con imágenes, y recuerda que MarkDown tiene una manera para que se pueda escribir código en el.
+
+### Empezando el proyecto
 
   * Para empezar un proyecto en GIT con almacenamiento en GitHub, debemos en entrar a [GitHub](https://github.com/), una vez iniciado sesión, en la parte superior derecha, nos aparecerá a lado de nuestra foto de perfil un icono de :heavy_plus_sign:, al cuál al darle click desplegará un menú, donde debemos seleccionar la primera opción "New repository".
 
@@ -66,6 +68,8 @@
 
     2. Y en seguida podremos copiar directamente el link del repositorio.
 
+### Bajando el proyecto y empezando a hacer cambios
+
   *  Una vez copiado / obtenido el link del repositorio, podemos clonar / descargar el proyecto en nuestras PC / laptops con la siguiente instrucción:
 
   ```
@@ -122,6 +126,7 @@
 
   Cuando terminamos de trabajar en nuestros archivos podemos pasar a la terminal para subir nuestros archivos al repositorio de GitHub.
 
+### Guardando cambios
   * Para empezar escribimos y ejecutamos la instrucción en la terminal:
 
   ```
@@ -165,6 +170,8 @@
     <img src="images/TutoGit-19.png" />
   </p>
 
+### Subiendo cambios
+
   Y nos indicará qué nuestro proyecto local o rama master esta delante de "origin/master". Ahora estamos listos para subir los cambios con la siguiente instrucción:
 
   ```
@@ -184,3 +191,9 @@
   </p>
 
   Lo cual nos indica que la rama ya esta actualizada con "origin/master" que es donde esta alojado nuestro repositorio en GitHub.
+
+### Creando nuevas ramas
+
+  Generalmente cuando trabajamos en un grupo se hace una rama llamada "develop" de ahí podemos hacer otra rama para poder trabajar sobre ella y no afectar los cambios directos sobre la rama master.
+
+  Para hacer
