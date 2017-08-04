@@ -8,6 +8,7 @@ Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este 
   1. Zsh para la terminal.
   2. Git
   3. Cuenta en GitHub
+  4. Atom
 
 ### Empezando el proyecto
 
