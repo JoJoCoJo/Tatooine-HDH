@@ -209,3 +209,80 @@ Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este 
   <p align="center">
     <img src="images/TutoGit-22.png" />
   </p>
+
+  Ahora procederemos a abrir de nuevo desde la terminal la carpeta del proyecto con Atom, con la siguiente instrucción:
+
+  ```
+  atom .
+  ```
+
+  Y procederemos a modificar el README.md,
+  en este caso, le agregamos un texto típico para relleno, "Lorem ipsum".
+
+  ```
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  ```
+
+  Y podremos ver el mismo efecto cuando guardamos, se cambia el color del archivo y queda normal el botón de cerrar y cambia de color el nombre del archivo, registrando los cambios en el archivo.
+
+  <p align="center">
+    <img src="images/TutoGit-23.png" />
+  </p>
+
+  Ahora podremos ir a la terminal y ejecutar los siguientes comandos, para empezar el "git status", después recordemos que creamos y nos ubicamos en la rama "**develop**", todos estos cambios los hemos hecho localmente, no hay nada todavía en nuestro servidor de GitHub; para subir los cambios debemos usar los siguientes comandos, cuidando que nos encontremos en la rama correcta:
+
+  1. Primero podemos utilizar el comando:
+
+  ```
+  git branch
+  ```
+
+  Para saber en que rama estas ubicado.
+
+  2. Después ejecutar la instrucción "git status" para poder hacer los **commits**
+
+  ```
+  git status
+  git add nombre_del_archivo
+  git commit -m "commit message 2"
+  ```
+
+  3. Por último sería subir al servidor de GitHub todos los cambios, junto con la rama **develop** con la instrucción:
+
+  ```
+  git push origin develop
+  ```
+
+  Dando como resultado en la terminal lo siguiente:
+
+  <p align="center">
+    <img src="images/TutoGit-24.png" />
+  </p>
+
+Ahora podemos checar directo en nuestro repositorio en GitHub las ramas de nuestro proyecto y diferencias entre las mimas.
+
+* Para empezar podremos notar en la página principal del proyecto que nos aparece un mensaje que nos indica que dice "Has subido una rama recientemente", y ya se mostrarán 2 ramas.
+
+  <p align="center">
+    <img src="images/TutoGit-25.png" />
+  </p>
+
+* Al darle click al botón de "Compare & pull request" nos mostrará en su primera sección la siguiente pantalla:
+
+  <p align="center">
+    <img src="images/TutoGit-26.png" />
+  </p>
+
+  Donde los óvalos muestran las ramas **master** (rama principal) y la que creamos **develop**, también nos mostrará el mensaje que le dimos al **commit** y si queremos dejar algún otro comentario, por consiguiente podemos darle click a la opción "Create pull request", pero por el momento aun no le daremos click.
+
+* En la parte inferior hay una comparativa de los archivos con los cambios que se hicieron en la rama.
+
+  <p align="center">
+    <img src="images/TutoGit-27.png" />
+  </p>
+
+* Al darle click al botón "Create pull request", realizará el merge y nos inidicará si tuvo algún conflicto, en caso contrario nos mostrará la siguiente pantalla:
+
+  <p align="center">
+    <img src="images/TutoGit-28.png" />
+  </p>
