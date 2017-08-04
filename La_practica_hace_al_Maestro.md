@@ -4,6 +4,11 @@
 
 Crea un listado de todo los pasos que toma hacer un flujo completo de GIT, este listado deberá ser mas un tutorial que un listado. Acompáñalo con imágenes, y recuerda que MarkDown tiene una manera para que se pueda escribir código en el.
 
+* REQUISITOS:
+  1. Zsh para la terminal.
+  2. Git
+  3. Cuenta en GitHub
+
 ### Empezando el proyecto
 
   * Para empezar un proyecto en GIT con almacenamiento en GitHub, debemos en entrar a [GitHub](https://github.com/), una vez iniciado sesión, en la parte superior derecha, nos aparecerá a lado de nuestra foto de perfil un icono de :heavy_plus_sign:, al cuál al darle click desplegará un menú, donde debemos seleccionar la primera opción "New repository".
@@ -281,8 +286,33 @@ Ahora podemos checar directo en nuestro repositorio en GitHub las ramas de nuest
     <img src="images/TutoGit-27.png" />
   </p>
 
-* Al darle click al botón "Create pull request", realizará el merge y nos inidicará si tuvo algún conflicto, en caso contrario nos mostrará la siguiente pantalla:
+* Al darle click al botón "Create pull request", completará el pull o subida de los archivos y nos inidicará si tuvo algún conflicto, en caso contrario nos mostrará la siguiente pantalla:
 
   <p align="center">
     <img src="images/TutoGit-28.png" />
   </p>
+
+  Ya que no nos mando ningún error, podemos proceder a hacer el merge o unión de las ramas, al hacer click en el botón "Merge pull request" nos pedirá confirmación para terminar el proceso y si queremos modificar el mensaje del **commit** este es momento indicado.
+
+  <p align="center">
+    <img src="images/TutoGit-29.png" />
+  </p>
+
+  Cuando confirmamos el merge, nos saldrá la siguiente pantalla en caso de ser existosó el proceso
+
+  <p align="center">
+    <img src="images/TutoGit-30.png" />
+  </p>
+
+  También tendremos la opción para poder eliminar la rama o podremos no realizar ninguna acción e irnos directamente a la pantalla principal del repositorio.
+
+    <p align="center">
+      <img src="images/TutoGit-31.png" />
+    </p>
+
+  Y podremos observar los cambios hechos, ya en la rama **master**.
+
+  * RECOMENDACIONES:
+    1. Borrar las ramas que ya no uses.
+    2. Antes de subir cualquier archivo o hacer algún **commit** ejecutar la instrucción "git status".
+    3. Prácticar las veces que sea necesario el tutorial.
