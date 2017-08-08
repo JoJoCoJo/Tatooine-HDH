@@ -17,7 +17,9 @@ Un tablero Kanban es una de las herramientas más populares para aumentar la pro
 
 Aquí mostramos un ejemplo de tablero Kanban:
 
-  ![Kanban image](http://static.kanbantool.com/seo-landing-page/kanban-method/a-simple-kanban-board.png)
+  <p align="center">
+    <img src="http://static.kanbantool.com/seo-landing-page/kanban-method/a-simple-kanban-board.png" />
+  </p>
 
 Un tablero Kanban sencillo consiste en 3 columnas que también podrían ser consideradas como estados, como vimos en el tutorial de [GitHub](https://github.com/JoJoCoJo/Tatooine-HDH/blob/master/La_practica_hace_al_Maestro.md), se organiza las tareas a realizar, las cuales son:
 
